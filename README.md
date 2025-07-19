@@ -1,12 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 React Infinite Scroll Product Gallery
 
-Currently, two official plugins are available:
+A seamless, responsive **Infinite Scroll** application built with **React**, showcasing products in a dynamic gallery format. It uses the [DummyJSON](https://dummyjson.com/) API to simulate real-world product listings and features modern UI elements like **Skeleton Loaders** for a smoother user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Project Objective
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The main goal of this project is to:
+- Demonstrate infinite scroll implementation using React.
+- Show how to manage paginated data fetching with scroll detection.
+- Improve perceived performance with UI skeletons during data load.
+- Provide reusable components with clean, modular code architecture.
+
+---
+
+
+
+## 📚 Features
+
+✅ Infinite scrolling using scroll position detection  
+✅ Real-time data loading with pagination (`limit` and `skip` params)  
+✅ Responsive product grid layout  
+✅ Skeleton placeholders using `react-loading-skeleton`  
+✅ Custom loader animation for better UX  
+✅ Modular component architecture for maintainability  
+
+---
+
+## 🧱 Built With
+
+| Technology            | Purpose                              |
+|-----------------------|--------------------------------------|
+| **React**             | Front-end UI                         |
+| **JavaScript (ES6+)** | Core logic                           |
+| **CSS**               | Styling and responsiveness           |
+| **react-loading-skeleton** | Loading skeletons for better UX |
+| **DummyJSON API**     | Fake API for fetching products       |
+
+---
+
+## 🧰 Installation & Running Locally
+
+Clone the project:
+
+```bash
+git clone https://github.com/sidhdesh111/React_infinite_scroll.git
+cd infinite-scroll-react
+>>>>>>> 101156e4cfb81dcf37f758baea4d11e0af8aa8a5
