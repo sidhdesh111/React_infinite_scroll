@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title {
+    padding-block: 2rem;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+.product_main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.product_main .product_item {
+    width: calc(25% - 1rem);
+    height: 400px;
+    background: #3b3b3b;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    overflow: hidden;
+}
+
+.product_item .img_contain {
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product_item .img_contain img {
+    height: 180px;
+    aspect-ratio: 1;
+}
+
+.product_item .product_content {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.product_item .product_content h2,
+p {
+    color: #fff;
+}
+
+.product_item .product_content h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.loading{
+    text-align: center;
+}
+
+.loading_cricle {
+    width: 3rem;
+    animation: rotate_cicle 0.2s linear infinite;
+    -webkit-animation: rotate_cicle 1.5s linear infinite;
+}
+
+@keyframes rotate_cicle {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
